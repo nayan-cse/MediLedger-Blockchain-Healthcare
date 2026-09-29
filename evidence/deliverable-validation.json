@@ -1,0 +1,21 @@
+{
+  "reportPages": 14,
+  "videoSeconds": 600.023047,
+  "passedTests": 22,
+  "transactionFeeArithmetic": "verified",
+  "loadSuccesses": [
+    10,
+    50,
+    100
+  ],
+  "videoFormat": [
+    {
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "codec_type": "audio"
+    }
+  ]
+}

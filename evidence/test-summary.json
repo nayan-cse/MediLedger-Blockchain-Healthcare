@@ -1,0 +1,6 @@
+{
+  "passed": 22,
+  "failed": 0,
+  "expected": 22,
+  "scope": "Functional and security integration tests against real local EVM and IPFS services"
+}

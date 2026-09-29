@@ -1,0 +1,3660 @@
+{
+  "date": "2026-09-03T12:46:55.422Z",
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "architecture": "x64",
+    "cpuModel": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logicalCpus": 8,
+    "chain": "Ganache 7.9.2 / Shanghai / chain 31337 / 0.25-second block interval",
+    "solidity": "0.8.30+commit.73712a01.Emscripten.clang",
+    "ipfs": "Helia 5.4.2; two loopback peers, separate persistent stores",
+    "notes": "Single-host synthetic benchmark. Ganache uses its JavaScript WebSocket fallback under Node 24. No public testnet, WAN, multi-host consensus, sustained clinical load or browser timing was measured."
+  },
+  "deployment": {
+    "address": "0xD833215cBcc3f914bD1C9ece3EE7BF8B14f841bb",
+    "transactionHash": "0x5811082f2cee44db7e4e314a8f5d8807784bd7e76617488045de4a3acbfe0790",
+    "blockNumber": 76,
+    "gasUsed": "1187726",
+    "gasPriceWei": "1000040810",
+    "feeWei": "1187774471098060",
+    "chainId": 31337,
+    "compiler": "0.8.30+commit.73712a01.Emscripten.clang"
+  },
+  "files": [
+    {
+      "bytes": 1024,
+      "ciphertextBytes": 1995,
+      "encryption": {
+        "n": 5,
+        "mean": 4.239106999999786,
+        "p50": 1.6795550000006187,
+        "p95": 12.41155499999968,
+        "min": 1.4322089999996024,
+        "max": 12.41155499999968
+      },
+      "decryption": {
+        "n": 5,
+        "mean": 2.2383923999997934,
+        "p50": 2.1047969999999623,
+        "p95": 2.9915520000004108,
+        "min": 1.8771949999991193,
+        "max": 2.9915520000004108
+      },
+      "upload": {
+        "n": 5,
+        "mean": 615.1547465999995,
+        "p50": 610.761039,
+        "p95": 661.6011430000003,
+        "min": 572.7926609999995,
+        "max": 661.6011430000003
+      },
+      "download": {
+        "n": 5,
+        "mean": 562.5202764000002,
+        "p50": 566.2311210000007,
+        "p95": 568.9072409999999,
+        "min": 545.2211360000001,
+        "max": 568.9072409999999
+      },
+      "grant": {
+        "n": 5,
+        "mean": 1028.2847986,
+        "p50": 1035.0385189999997,
+        "p95": 1042.144921,
+        "min": 1010.8315000000002,
+        "max": 1042.144921
+      },
+      "revoke": {
+        "n": 5,
+        "mean": 402.5942151999998,
+        "p50": 400.22189199999957,
+        "p95": 420.1675269999996,
+        "min": 386.5011479999994,
+        "max": 420.1675269999996
+      }
+    },
+    {
+      "bytes": 102400,
+      "ciphertextBytes": 182219,
+      "encryption": {
+        "n": 5,
+        "mean": 23.07235479999945,
+        "p50": 11.92095899999913,
+        "p95": 68.36495300000024,
+        "min": 9.935226999998122,
+        "max": 68.36495300000024
+      },
+      "decryption": {
+        "n": 5,
+        "mean": 76.8895405999996,
+        "p50": 71.80285000000003,
+        "p95": 93.46411799999987,
+        "min": 65.08780900000056,
+        "max": 93.46411799999987
+      },
+      "upload": {
+        "n": 5,
+        "mean": 705.3698797999998,
+        "p50": 771.7591170000014,
+        "p95": 802.0701300000001,
+        "min": 572.052087,
+        "max": 802.0701300000001
+      },
+      "download": {
+        "n": 5,
+        "mean": 653.3487261999995,
+        "p50": 672.8138350000008,
+        "p95": 679.7936069999996,
+        "min": 597.1158069999983,
+        "max": 679.7936069999996
+      },
+      "grant": {
+        "n": 5,
+        "mean": 1005.7996802000009,
+        "p50": 1039.1711920000016,
+        "p95": 1067.2998770000013,
+        "min": 853.8616660000007,
+        "max": 1067.2998770000013
+      },
+      "revoke": {
+        "n": 5,
+        "mean": 470.5019386,
+        "p50": 599.4126759999999,
+        "p95": 643.0874149999981,
+        "min": 129.33341400000063,
+        "max": 643.0874149999981
+      }
+    },
+    {
+      "bytes": 1048576,
+      "ciphertextBytes": 1864311,
+      "encryption": {
+        "n": 5,
+        "mean": 247.63406319999777,
+        "p50": 155.07257799999934,
+        "p95": 607.3338799999983,
+        "min": 141.35285399999702,
+        "max": 607.3338799999983
+      },
+      "decryption": {
+        "n": 5,
+        "mean": 747.0617089999985,
+        "p50": 720.8139139999985,
+        "p95": 946.3968840000016,
+        "min": 650.9891089999946,
+        "max": 946.3968840000016
+      },
+      "upload": {
+        "n": 5,
+        "mean": 1018.0388513999999,
+        "p50": 1010.0435809999981,
+        "p95": 1039.8064840000006,
+        "min": 1001.9426730000014,
+        "max": 1039.8064840000006
+      },
+      "download": {
+        "n": 5,
+        "mean": 1383.0231638000012,
+        "p50": 1341.208556999998,
+        "p95": 1521.3065570000035,
+        "min": 1298.3666450000019,
+        "max": 1521.3065570000035
+      },
+      "grant": {
+        "n": 5,
+        "mean": 1152.1194397999977,
+        "p50": 1075.0113409999976,
+        "p95": 1300.4049010000017,
+        "min": 1038.6970299999957,
+        "max": 1300.4049010000017
+      },
+      "revoke": {
+        "n": 5,
+        "mean": 439.50255219999815,
+        "p50": 346.76658899999893,
+        "p95": 593.7982679999986,
+        "min": 329.22814699999435,
+        "max": 593.7982679999986
+      }
+    }
+  ],
+  "operations": [
+    {
+      "operation": "deployment",
+      "n": 1,
+      "gas": {
+        "n": 1,
+        "mean": 1187726,
+        "p50": 1187726,
+        "p95": 1187726,
+        "min": 1187726,
+        "max": 1187726
+      },
+      "feeEth": {
+        "n": 1,
+        "mean": 0.00118777447109806,
+        "p50": 0.00118777447109806,
+        "p95": 0.00118777447109806,
+        "min": 0.00118777447109806,
+        "max": 0.00118777447109806
+      },
+      "latency": {
+        "n": 1,
+        "mean": 695.291789,
+        "p50": 695.291789,
+        "p95": 695.291789,
+        "min": 695.291789,
+        "max": 695.291789
+      }
+    },
+    {
+      "operation": "patient_registration",
+      "n": 1,
+      "gas": {
+        "n": 1,
+        "mean": 364053,
+        "p50": 364053,
+        "p95": 364053,
+        "min": 364053,
+        "max": 364053
+      },
+      "feeEth": {
+        "n": 1,
+        "mean": 0.00036406306606545,
+        "p50": 0.00036406306606545,
+        "p95": 0.00036406306606545,
+        "min": 0.00036406306606545,
+        "max": 0.00036406306606545
+      },
+      "latency": {
+        "n": 1,
+        "mean": 447.2347480000001,
+        "p50": 447.2347480000001,
+        "p95": 447.2347480000001,
+        "min": 447.2347480000001,
+        "max": 447.2347480000001
+      }
+    },
+    {
+      "operation": "doctor_registration",
+      "n": 1,
+      "gas": {
+        "n": 1,
+        "mean": 364053,
+        "p50": 364053,
+        "p95": 364053,
+        "min": 364053,
+        "max": 364053
+      },
+      "feeEth": {
+        "n": 1,
+        "mean": 0.000364061838478734,
+        "p50": 0.000364061838478734,
+        "p95": 0.000364061838478734,
+        "min": 0.000364061838478734,
+        "max": 0.000364061838478734
+      },
+      "latency": {
+        "n": 1,
+        "mean": 433.04090899999983,
+        "p50": 433.04090899999983,
+        "p95": 433.04090899999983,
+        "min": 433.04090899999983,
+        "max": 433.04090899999983
+      }
+    },
+    {
+      "operation": "provider_approval",
+      "n": 1,
+      "gas": {
+        "n": 1,
+        "mean": 28850,
+        "p50": 28850,
+        "p95": 28850,
+        "min": 28850,
+        "max": 28850
+      },
+      "feeEth": {
+        "n": 1,
+        "mean": 0.00002885053813905,
+        "p50": 0.00002885053813905,
+        "p95": 0.00002885053813905,
+        "min": 0.00002885053813905,
+        "max": 0.00002885053813905
+      },
+      "latency": {
+        "n": 1,
+        "mean": 377.35003099999994,
+        "p50": 377.35003099999994,
+        "p95": 377.35003099999994,
+        "min": 377.35003099999994,
+        "max": 377.35003099999994
+      }
+    },
+    {
+      "operation": "hospital_registration",
+      "n": 1,
+      "gas": {
+        "n": 1,
+        "mean": 364053,
+        "p50": 364053,
+        "p95": 364053,
+        "min": 364053,
+        "max": 364053
+      },
+      "feeEth": {
+        "n": 1,
+        "mean": 0.000364058200861158,
+        "p50": 0.000364058200861158,
+        "p95": 0.000364058200861158,
+        "min": 0.000364058200861158,
+        "max": 0.000364058200861158
+      },
+      "latency": {
+        "n": 1,
+        "mean": 435.74287000000004,
+        "p50": 435.74287000000004,
+        "p95": 435.74287000000004,
+        "min": 435.74287000000004,
+        "max": 435.74287000000004
+      }
+    },
+    {
+      "operation": "record_upload",
+      "n": 15,
+      "gas": {
+        "n": 15,
+        "mean": 213730.8,
+        "p50": 212594,
+        "p95": 229682,
+        "min": 212582,
+        "max": 229682
+      },
+      "feeEth": {
+        "n": 15,
+        "mean": 0.00021373103287543964,
+        "p50": 0.000212594001488158,
+        "p95": 0.000229684520989632,
+        "min": 0.000212582001488074,
+        "max": 0.000229684520989632
+      },
+      "latency": {
+        "n": 15,
+        "mean": 779.5211592666664,
+        "p50": 771.7591170000014,
+        "p95": 1039.8064840000006,
+        "min": 572.052087,
+        "max": 1039.8064840000006
+      }
+    },
+    {
+      "operation": "permission_grant",
+      "n": 15,
+      "gas": {
+        "n": 15,
+        "mean": 74369.8,
+        "p50": 74373,
+        "p95": 74373,
+        "min": 74361,
+        "max": 74373
+      },
+      "feeEth": {
+        "n": 15,
+        "mean": 0.00007436984547151938,
+        "p50": 0.000074373000520611,
+        "p95": 0.000074373479780223,
+        "min": 0.000074361000520527,
+        "max": 0.000074373479780223
+      },
+      "latency": {
+        "n": 15,
+        "mean": 1062.0679728666662,
+        "p50": 1039.1711920000016,
+        "p95": 1300.4049010000017,
+        "min": 853.8616660000007,
+        "max": 1300.4049010000017
+      }
+    },
+    {
+      "operation": "permission_revoke",
+      "n": 15,
+      "gas": {
+        "n": 15,
+        "mean": 29253,
+        "p50": 29253,
+        "p95": 29253,
+        "min": 29253,
+        "max": 29253
+      },
+      "feeEth": {
+        "n": 15,
+        "mean": 0.000029253011617341406,
+        "p50": 0.000029253000204771,
+        "p95": 0.000029253126577731,
+        "min": 0.000029253000204771,
+        "max": 0.000029253126577731
+      },
+      "latency": {
+        "n": 15,
+        "mean": 437.5329019999993,
+        "p50": 400.22189199999957,
+        "p95": 643.0874149999981,
+        "min": 129.33341400000063,
+        "max": 643.0874149999981
+      }
+    },
+    {
+      "operation": "worker_registration",
+      "n": 8,
+      "gas": {
+        "n": 8,
+        "mean": 364053,
+        "p50": 364053,
+        "p95": 364053,
+        "min": 364053,
+        "max": 364053
+      },
+      "feeEth": {
+        "n": 8,
+        "mean": 0.00036405300254837094,
+        "p50": 0.000364053002548371,
+        "p95": 0.000364053002548371,
+        "min": 0.000364053002548371,
+        "max": 0.000364053002548371
+      },
+      "latency": {
+        "n": 8,
+        "mean": 402.96050787499917,
+        "p50": 397.7993470000001,
+        "p95": 454.8209149999966,
+        "min": 375.5142369999958,
+        "max": 454.8209149999966
+      }
+    },
+    {
+      "operation": "load_record",
+      "n": 160,
+      "gas": {
+        "n": 160,
+        "mean": 212582,
+        "p50": 212582,
+        "p95": 212582,
+        "min": 212582,
+        "max": 212582
+      },
+      "feeEth": {
+        "n": 160,
+        "mean": 0.0004251639999999997,
+        "p50": 0.000425164,
+        "p95": 0.000425164,
+        "min": 0.000425164,
+        "max": 0.000425164
+      },
+      "latency": {
+        "n": 160,
+        "mean": 518.9589054875,
+        "p50": 614.8703620000015,
+        "p95": 645.0886210000026,
+        "min": 307.72392099999706,
+        "max": 667.1898840000067
+      }
+    },
+    {
+      "operation": "read_audit",
+      "n": 35,
+      "gas": {
+        "n": 35,
+        "mean": 28982.4,
+        "p50": 27000,
+        "p95": 31628,
+        "min": 26988,
+        "max": 31628
+      },
+      "feeEth": {
+        "n": 35,
+        "mean": 2.1696349714285712e-11,
+        "p50": 2.21396e-13,
+        "p95": 2.26108572e-10,
+        "min": 1.88916e-13,
+        "max": 3.28914e-10
+      },
+      "latency": null
+    }
+  ],
+  "scales": [
+    {
+      "attempted": 10,
+      "concurrency": 1,
+      "success": 10,
+      "successRate": 1,
+      "seconds": 3.1387421150000008,
+      "tps": 3.1859896842783457,
+      "latency": {
+        "n": 10,
+        "mean": 312.49683339999973,
+        "p50": 311.03087100000266,
+        "p95": 329.18631099999766,
+        "min": 307.72392099999706,
+        "max": 329.18631099999766
+      },
+      "gas": {
+        "n": 10,
+        "mean": 212582,
+        "p50": 212582,
+        "p95": 212582,
+        "min": 212582,
+        "max": 212582
+      },
+      "cpuPercentOneCore": 19.040047831390567,
+      "cpuSeconds": 0.597618,
+      "resourceSnapshots": {
+        "before": {
+          "cpu": {
+            "user": 14008864,
+            "system": 4206347
+          },
+          "rss": 389210112,
+          "rssKind": "current",
+          "peakRss": 526737408,
+          "bytesIn": 10267699,
+          "bytesOut": 20532110,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 3930923,
+                "system": 1168200
+              },
+              "rss": 250597376,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3626338,
+                "system": 1044103
+              },
+              "rss": 240848896,
+              "rssKind": "current",
+              "peakRss": 240848896,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        },
+        "after": {
+          "cpu": {
+            "user": 14152332,
+            "system": 4211846
+          },
+          "rss": 389472256,
+          "rssKind": "current",
+          "peakRss": 526737408,
+          "bytesIn": 10267699,
+          "bytesOut": 20532846,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 4057498,
+                "system": 1173992
+              },
+              "rss": 248836096,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3631609,
+                "system": 1044577
+              },
+              "rss": 240848896,
+              "rssKind": "current",
+              "peakRss": 240848896,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        },
+        "chainBefore": {
+          "cpu": {
+            "user": 14766389,
+            "system": 3303545
+          },
+          "rss": 364613632,
+          "rssKind": "current",
+          "peakRss": 377319424,
+          "bytesIn": 0,
+          "bytesOut": 21208,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 4012071,
+                "system": 1168207
+              },
+              "rss": 250597376,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3629502,
+                "system": 1044105
+              },
+              "rss": 240848896,
+              "rssKind": "current",
+              "peakRss": 240848896,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        },
+        "chainAfter": {
+          "cpu": {
+            "user": 15014025,
+            "system": 3366448
+          },
+          "rss": 365531136,
+          "rssKind": "current",
+          "peakRss": 377319424,
+          "bytesIn": 0,
+          "bytesOut": 21934,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 4059241,
+                "system": 1173993
+              },
+              "rss": 248836096,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3633282,
+                "system": 1045058
+              },
+              "rss": 240848896,
+              "rssKind": "current",
+              "peakRss": 240848896,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        }
+      },
+      "memoryMiB": {
+        "gatewayAndDriver": 371.4296875,
+        "chain": 348.59765625,
+        "storage": [
+          237.30859375,
+          229.69140625
+        ],
+        "kind": "current"
+      },
+      "cumulativeRecords": 25
+    },
+    {
+      "attempted": 50,
+      "concurrency": 4,
+      "success": 50,
+      "successRate": 1,
+      "seconds": 5.746792947999995,
+      "tps": 8.70050486461341,
+      "latency": {
+        "n": 50,
+        "mean": 445.6063028799994,
+        "p50": 343.2860419999997,
+        "p95": 621.4865870000067,
+        "min": 319.6052820000041,
+        "max": 623.7682260000001
+      },
+      "gas": {
+        "n": 50,
+        "mean": 212582,
+        "p50": 212582,
+        "p95": 212582,
+        "min": 212582,
+        "max": 212582
+      },
+      "cpuPercentOneCore": 40.11468693686442,
+      "cpuSeconds": 2.305308,
+      "resourceSnapshots": {
+        "before": {
+          "cpu": {
+            "user": 14161049,
+            "system": 4211848
+          },
+          "rss": 389472256,
+          "rssKind": "current",
+          "peakRss": 526737408,
+          "bytesIn": 10267699,
+          "bytesOut": 20533582,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 4061144,
+                "system": 1173993
+              },
+              "rss": 248836096,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3633287,
+                "system": 1046649
+              },
+              "rss": 240848896,
+              "rssKind": "current",
+              "peakRss": 240848896,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        },
+        "after": {
+          "cpu": {
+            "user": 14680356,
+            "system": 4223942
+          },
+          "rss": 389603328,
+          "rssKind": "current",
+          "peakRss": 526737408,
+          "bytesIn": 10267699,
+          "bytesOut": 20534318,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 4078851,
+                "system": 1175253
+              },
+              "rss": 248836096,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3637931,
+                "system": 1065313
+              },
+              "rss": 240848896,
+              "rssKind": "current",
+              "peakRss": 240848896,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        },
+        "chainBefore": {
+          "cpu": {
+            "user": 15020922,
+            "system": 3369467
+          },
+          "rss": 365662208,
+          "rssKind": "current",
+          "peakRss": 377319424,
+          "bytesIn": 0,
+          "bytesOut": 22660,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 4062148,
+                "system": 1173993
+              },
+              "rss": 248836096,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3633287,
+                "system": 1047559
+              },
+              "rss": 240848896,
+              "rssKind": "current",
+              "peakRss": 240848896,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        },
+        "chainAfter": {
+          "cpu": {
+            "user": 16435677,
+            "system": 3686344
+          },
+          "rss": 362610688,
+          "rssKind": "current",
+          "peakRss": 377319424,
+          "bytesIn": 0,
+          "bytesOut": 23386,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 4082316,
+                "system": 1175255
+              },
+              "rss": 248836096,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3639449,
+                "system": 1065314
+              },
+              "rss": 240979968,
+              "rssKind": "current",
+              "peakRss": 240979968,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        }
+      },
+      "memoryMiB": {
+        "gatewayAndDriver": 371.5546875,
+        "chain": 345.8125,
+        "storage": [
+          237.30859375,
+          229.69140625
+        ],
+        "kind": "current"
+      },
+      "cumulativeRecords": 75
+    },
+    {
+      "attempted": 100,
+      "concurrency": 8,
+      "success": 100,
+      "successRate": 1,
+      "seconds": 7.392219969999991,
+      "tps": 13.527735971850431,
+      "latency": {
+        "n": 100,
+        "mean": 576.2814140000004,
+        "p50": 624.8599099999992,
+        "p95": 667.1292909999902,
+        "min": 335.870797999989,
+        "max": 667.1898840000067
+      },
+      "gas": {
+        "n": 100,
+        "mean": 212582,
+        "p50": 212582,
+        "p95": 212582,
+        "min": 212582,
+        "max": 212582
+      },
+      "cpuPercentOneCore": 59.57922001609492,
+      "cpuSeconds": 4.404227000000001,
+      "resourceSnapshots": {
+        "before": {
+          "cpu": {
+            "user": 14689638,
+            "system": 4224331
+          },
+          "rss": 389603328,
+          "rssKind": "current",
+          "peakRss": 526737408,
+          "bytesIn": 10267699,
+          "bytesOut": 20535054,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 4083890,
+                "system": 1175480
+              },
+              "rss": 248836096,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3641438,
+                "system": 1065314
+              },
+              "rss": 240979968,
+              "rssKind": "current",
+              "peakRss": 240979968,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        },
+        "after": {
+          "cpu": {
+            "user": 15567145,
+            "system": 4259600
+          },
+          "rss": 390488064,
+          "rssKind": "current",
+          "peakRss": 526737408,
+          "bytesIn": 10267699,
+          "bytesOut": 20535790,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 4093558,
+                "system": 1193982
+              },
+              "rss": 248836096,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3659698,
+                "system": 1070442
+              },
+              "rss": 240979968,
+              "rssKind": "current",
+              "peakRss": 240979968,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        },
+        "chainBefore": {
+          "cpu": {
+            "user": 16473209,
+            "system": 3686509
+          },
+          "rss": 362610688,
+          "rssKind": "current",
+          "peakRss": 377319424,
+          "bytesIn": 0,
+          "bytesOut": 24112,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 4083900,
+                "system": 1176943
+              },
+              "rss": 248836096,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3642963,
+                "system": 1065314
+              },
+              "rss": 240979968,
+              "rssKind": "current",
+              "peakRss": 240979968,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        },
+        "chainAfter": {
+          "cpu": {
+            "user": 19216159,
+            "system": 4383452
+          },
+          "rss": 424214528,
+          "rssKind": "current",
+          "peakRss": 424214528,
+          "bytesIn": 0,
+          "bytesOut": 24838,
+          "storage": [
+            {
+              "peerId": "12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44665/p2p/12D3KooWB8xRErrKC6EjGpzJjsu4pFzSwctQ1nc1TcVstB275vGP"
+              ],
+              "cpu": {
+                "user": 4095560,
+                "system": 1194566
+              },
+              "rss": 248836096,
+              "rssKind": "current",
+              "peakRss": 272941056,
+              "received": 10242916,
+              "sent": 20488160
+            },
+            {
+              "peerId": "12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2",
+              "addresses": [
+                "/ip4/127.0.0.1/tcp/44835/p2p/12D3KooWLiMDnBqG58ygBSf4s2nMubgiK5KZEvZSW7aHGRgozVU2"
+              ],
+              "cpu": {
+                "user": 3659947,
+                "system": 1074566
+              },
+              "rss": 240979968,
+              "rssKind": "current",
+              "peakRss": 240979968,
+              "received": 10242916,
+              "sent": 291
+            }
+          ]
+        }
+      },
+      "memoryMiB": {
+        "gatewayAndDriver": 372.3984375,
+        "chain": 404.5625,
+        "storage": [
+          237.30859375,
+          229.81640625
+        ],
+        "kind": "current"
+      },
+      "cumulativeRecords": 175
+    }
+  ],
+  "network": {
+    "fileBytes": 1048576,
+    "trials": 5,
+    "seconds": 11.088893052,
+    "gatewayBytes": 18657381,
+    "storageReceived": 18642950,
+    "storageSent": 9321475,
+    "gatewayMiBPerSecond": 1.604584424041928,
+    "storageMiBPerSecond": 2.4050149794490823,
+    "scope": "Measured HTTP application payload bytes. Excludes headers, TCP/TLS framing, Ethereum RPC bytes and libp2p overhead; not physical-link bandwidth."
+  },
+  "raw": [
+    {
+      "operation": "deployment",
+      "gasUsed": 1187726,
+      "gasPriceWei": "1000040810",
+      "feeWei": "1187774471098060",
+      "feeEth": 0.00118777447109806,
+      "latencyMs": 695.291789,
+      "hash": "0x5811082f2cee44db7e4e314a8f5d8807784bd7e76617488045de4a3acbfe0790",
+      "block": 76
+    },
+    {
+      "operation": "patient_registration",
+      "gasUsed": 364053,
+      "gasPriceWei": "1000027650",
+      "feeWei": "364063066065450",
+      "feeEth": 0.00036406306606545,
+      "latencyMs": 447.2347480000001,
+      "hash": "0xf9acaa8a9c5360f7b05693b2fa6b878527a5e06c117e47d9a2f191ac3e437389",
+      "block": 79
+    },
+    {
+      "operation": "doctor_registration",
+      "gasUsed": 364053,
+      "gasPriceWei": "1000024278",
+      "feeWei": "364061838478734",
+      "feeEth": 0.000364061838478734,
+      "latencyMs": 433.04090899999983,
+      "hash": "0x7fb5128070d61e1495b2ebf32cca184448b4a54b7f909ded89219aa15bcbac1e",
+      "block": 80
+    },
+    {
+      "operation": "provider_approval",
+      "gasUsed": 28850,
+      "gasPriceWei": "1000018653",
+      "feeWei": "28850538139050",
+      "feeEth": 0.00002885053813905,
+      "latencyMs": 377.35003099999994,
+      "hash": "0xaf02d119e487a54292f205f95a6d5a3ca83f96f9564ff29daa011e7fdc664942",
+      "block": 82
+    },
+    {
+      "operation": "hospital_registration",
+      "gasUsed": 364053,
+      "gasPriceWei": "1000014286",
+      "feeWei": "364058200861158",
+      "feeEth": 0.000364058200861158,
+      "latencyMs": 435.74287000000004,
+      "hash": "0xf84145ff4eaf9df670d24df65352fbb00f07224b6782cb782f1814ce29abedb1",
+      "block": 84
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 229682,
+      "gasPriceWei": "1000010976",
+      "feeWei": "229684520989632",
+      "feeEth": 0.000229684520989632,
+      "latencyMs": 661.6011430000003,
+      "hash": "0x3b08cd56f58bd332be08c247751e7e2ddcff279381cec00546d62546b8dfaf8e",
+      "block": 86
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74373,
+      "gasPriceWei": "1000006451",
+      "feeWei": "74373479780223",
+      "feeEth": 0.000074373479780223,
+      "latencyMs": 1010.8315000000002,
+      "hash": "0xe55e37eddd127cba8291920e4536e6c2c5c829ec30b5bd5a1ff44279fdf77e1f",
+      "block": 90
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000004327",
+      "feeWei": "29253126577731",
+      "feeEth": 0.000029253126577731,
+      "latencyMs": 400.22189199999957,
+      "hash": "0x8667f079c2ec63b4159999322825127d513266049de1d4eac759ace00db261a7",
+      "block": 93
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212582,
+      "gasPriceWei": "1000003315",
+      "feeWei": "212582704709330",
+      "feeEth": 0.00021258270470933,
+      "latencyMs": 610.761039,
+      "hash": "0x0b957512591aace1e6adf7de58a811401f12331db485fa0479dac6ef492791f0",
+      "block": 95
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74373,
+      "gasPriceWei": "1000001949",
+      "feeWei": "74373144952977",
+      "feeEth": 0.000074373144952977,
+      "latencyMs": 1042.144921,
+      "hash": "0x35db3c35a6d4dca06a8e2598139439e69c58b5973d9c9bb0318809c78003a28d",
+      "block": 99
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000001145",
+      "feeWei": "29253033494685",
+      "feeEth": 0.000029253033494685,
+      "latencyMs": 409.59550600000057,
+      "hash": "0x1bcd9296032f04128007bd3bfbd218fb570c146c64001e34fd6778cbe7844de4",
+      "block": 103
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212582,
+      "gasPriceWei": "1000000878",
+      "feeWei": "212582186646996",
+      "feeEth": 0.000212582186646996,
+      "latencyMs": 587.1196079999991,
+      "hash": "0xd4521ded58b38be4623424d8cfe5f290198ecb9445393a18b052a6000e6943d4",
+      "block": 105
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74373,
+      "gasPriceWei": "1000000517",
+      "feeWei": "74373038450841",
+      "feeEth": 0.000074373038450841,
+      "latencyMs": 1036.578282999999,
+      "hash": "0x23bad69c141fae87ba59c1ff2751e80a6ee05dda9598e2889f8646faf23040e3",
+      "block": 109
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000305",
+      "feeWei": "29253008922165",
+      "feeEth": 0.000029253008922165,
+      "latencyMs": 396.4850029999998,
+      "hash": "0x4c5e76938508b6cb19b17c3dcf831231baaac7a1eaa223c1cb8b73818c7f31a3",
+      "block": 113
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212594,
+      "gasPriceWei": "1000000234",
+      "feeWei": "212594049746996",
+      "feeEth": 0.000212594049746996,
+      "latencyMs": 643.4992819999989,
+      "hash": "0xe6afdbb3f4ca11d209a03794727160632ed179063413e1d3cfd5a645bea5fe39",
+      "block": 115
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74361,
+      "gasPriceWei": "1000000140",
+      "feeWei": "74361010410540",
+      "feeEth": 0.00007436101041054,
+      "latencyMs": 1016.8307700000005,
+      "hash": "0xf25e121a4156833b006ca7b6e9fd43a351883d5a21a5270e1ead85da71495c68",
+      "block": 119
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000084",
+      "feeWei": "29253002457252",
+      "feeEth": 0.000029253002457252,
+      "latencyMs": 386.5011479999994,
+      "hash": "0x42e1c9eaeac9b5b0b54777bddd2578e9cb253c0a7a38c947db5b95db8efa7405",
+      "block": 123
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212594,
+      "gasPriceWei": "1000000065",
+      "feeWei": "212594013818610",
+      "feeEth": 0.00021259401381861,
+      "latencyMs": 572.7926609999995,
+      "hash": "0x7927f384b0474448ae2f66658683da75c5fd1b79e1159229f02037e2a26728c6",
+      "block": 125
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74373,
+      "gasPriceWei": "1000000039",
+      "feeWei": "74373002900547",
+      "feeEth": 0.000074373002900547,
+      "latencyMs": 1035.0385189999997,
+      "hash": "0xc957bb14d941bd7970d765ed25efd710bf92f5903c8c6230beb4f7331bc57f14",
+      "block": 129
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000025",
+      "feeWei": "29253000731325",
+      "feeEth": 0.000029253000731325,
+      "latencyMs": 420.1675269999996,
+      "hash": "0xfb203b057b107192a7b8a8763d359198b7397bd91c12869494767239e4819c0f",
+      "block": 133
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212594,
+      "gasPriceWei": "1000000018",
+      "feeWei": "212594003826692",
+      "feeEth": 0.000212594003826692,
+      "latencyMs": 572.052087,
+      "hash": "0xa2be740ed5c3e1e2b7cf90135974c5164604135af0b7fa5c9ecb1010ea380e6d",
+      "block": 136
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74361,
+      "gasPriceWei": "1000000012",
+      "feeWei": "74361000892332",
+      "feeEth": 0.000074361000892332,
+      "latencyMs": 1039.6487070000003,
+      "hash": "0xeb26ca4204e5f44aa779ec7273a51399f13ada2a117d5801b96b5dcb562dbed4",
+      "block": 140
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000008",
+      "feeWei": "29253000234024",
+      "feeEth": 0.000029253000234024,
+      "latencyMs": 630.1175360000016,
+      "hash": "0x3944f5da60d6975aa5843f62668fd16f63764d6ebdb47c13e0cf0e6511ac1d2d",
+      "block": 144
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212594,
+      "gasPriceWei": "1000000007",
+      "feeWei": "212594001488158",
+      "feeEth": 0.000212594001488158,
+      "latencyMs": 602.4493879999973,
+      "hash": "0xdd26523b489133a4d9c608bde201ea2e8b29703e5ecfddadca695d1376ebf267",
+      "block": 148
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74373,
+      "gasPriceWei": "1000000007",
+      "feeWei": "74373000520611",
+      "feeEth": 0.000074373000520611,
+      "latencyMs": 1039.1711920000016,
+      "hash": "0x9bca52fd0be2e8ca010da3057d0be77bf651b2e1276d0ed93fa59c22ecf6b3e6",
+      "block": 152
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000007",
+      "feeWei": "29253000204771",
+      "feeEth": 0.000029253000204771,
+      "latencyMs": 599.4126759999999,
+      "hash": "0xb00e0f94eef51dd3f40df3f87307c144f53f3bbdbb228934c6485fede4d7d9bf",
+      "block": 156
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212594,
+      "gasPriceWei": "1000000007",
+      "feeWei": "212594001488158",
+      "feeEth": 0.000212594001488158,
+      "latencyMs": 771.7591170000014,
+      "hash": "0x934a71143a9f9ab9258bc08a19a3ef13e66498a1e03c928878d337692ef84b74",
+      "block": 159
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74373,
+      "gasPriceWei": "1000000007",
+      "feeWei": "74373000520611",
+      "feeEth": 0.000074373000520611,
+      "latencyMs": 853.8616660000007,
+      "hash": "0x2b0b94cab87db7b9d83f6625ac3a8c584854ff548fa31b76a993dd43e3c447a1",
+      "block": 162
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000007",
+      "feeWei": "29253000204771",
+      "feeEth": 0.000029253000204771,
+      "latencyMs": 350.5586519999997,
+      "hash": "0xe810682df64274d9dd9454587bb55e3273ce653bc3dbd0e573b090c08a0c267d",
+      "block": 168
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212594,
+      "gasPriceWei": "1000000007",
+      "feeWei": "212594001488158",
+      "feeEth": 0.000212594001488158,
+      "latencyMs": 802.0701300000001,
+      "hash": "0x1f84861299077a2090cd2b5bf28710904080b32594cc293e56be7bff6bc3d972",
+      "block": 170
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74361,
+      "gasPriceWei": "1000000007",
+      "feeWei": "74361000520527",
+      "feeEth": 0.000074361000520527,
+      "latencyMs": 1067.2998770000013,
+      "hash": "0x2bbedaf1b9732d0e7694e4aa0bc17316e94a490582eb57fe3e3809d92c7f234e",
+      "block": 175
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000007",
+      "feeWei": "29253000204771",
+      "feeEth": 0.000029253000204771,
+      "latencyMs": 643.0874149999981,
+      "hash": "0xb799a77ceb23ab671bb2705056dc81a7cefe5ce0d951b2ade44294c1120e08f9",
+      "block": 179
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212594,
+      "gasPriceWei": "1000000007",
+      "feeWei": "212594001488158",
+      "feeEth": 0.000212594001488158,
+      "latencyMs": 778.518677,
+      "hash": "0x0b3b3a055456151e0208c068a873dff5c6d56189ba58d1e60d56b8326697c04b",
+      "block": 182
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74373,
+      "gasPriceWei": "1000000007",
+      "feeWei": "74373000520611",
+      "feeEth": 0.000074373000520611,
+      "latencyMs": 1029.0169590000005,
+      "hash": "0xc7d854c0b7e5fc154a57770d74611c8d4e774223655bfa84509fc015c7ebd4c6",
+      "block": 187
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000007",
+      "feeWei": "29253000204771",
+      "feeEth": 0.000029253000204771,
+      "latencyMs": 129.33341400000063,
+      "hash": "0xff9174ee1bc10d2331a857fc34520f46e5c3b4ca022dd0f0b91619fe9da7422c",
+      "block": 191
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212594,
+      "gasPriceWei": "1000000007",
+      "feeWei": "212594001488158",
+      "feeEth": 0.000212594001488158,
+      "latencyMs": 1001.9426730000014,
+      "hash": "0x2bd65c1fe423933bf7fdd8ad0193d57d7d2d7531794d74442afff62d9ee4ecde",
+      "block": 200
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74373,
+      "gasPriceWei": "1000000007",
+      "feeWei": "74373000520611",
+      "feeEth": 0.000074373000520611,
+      "latencyMs": 1300.4049010000017,
+      "hash": "0xacbc385f51376ef7a29e009a120889760bbce38cd474a44072e5a465243a2d9d",
+      "block": 204
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000007",
+      "feeWei": "29253000204771",
+      "feeEth": 0.000029253000204771,
+      "latencyMs": 593.7982679999986,
+      "hash": "0x6940ea9932bb39aeb23c3911493db6c23afd2eadba6ae68ff5da0ed41f4386aa",
+      "block": 213
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212594,
+      "gasPriceWei": "1000000007",
+      "feeWei": "212594001488158",
+      "feeEth": 0.000212594001488158,
+      "latencyMs": 1010.0435809999981,
+      "hash": "0x06321f0bf6ed0f6ef451561429576c65f978f6341cc43fbf1140e0869f9f7767",
+      "block": 220
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74373,
+      "gasPriceWei": "1000000007",
+      "feeWei": "74373000520611",
+      "feeEth": 0.000074373000520611,
+      "latencyMs": 1296.848582999999,
+      "hash": "0x990001a9609e80b3629bd7544a557a6fcdaefd51291551c7151c2d4307ec7d2d",
+      "block": 225
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000007",
+      "feeWei": "29253000204771",
+      "feeEth": 0.000029253000204771,
+      "latencyMs": 588.1493620000037,
+      "hash": "0x76ce324664e373b4e31a1ec6cc8a94ce6445d8e87c1a84f831d8ac7419647dca",
+      "block": 234
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212594,
+      "gasPriceWei": "1000000007",
+      "feeWei": "212594001488158",
+      "feeEth": 0.000212594001488158,
+      "latencyMs": 1039.8064840000006,
+      "hash": "0x052cc73282d0074694c4e44aba36e92cdd4d866af1e873fa746c88b2e93f9912",
+      "block": 241
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74373,
+      "gasPriceWei": "1000000007",
+      "feeWei": "74373000520611",
+      "feeEth": 0.000074373000520611,
+      "latencyMs": 1075.0113409999976,
+      "hash": "0xdcb6d68f32413f6cbe7013be6a101d060a53e163090c9cd00318fd4b714fe3eb",
+      "block": 246
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000007",
+      "feeWei": "29253000204771",
+      "feeEth": 0.000029253000204771,
+      "latencyMs": 329.22814699999435,
+      "hash": "0xd597ba5176f3d9dbcf24c10736bad63d166e13bf13b0cea97bd6ca3f41e28406",
+      "block": 253
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212582,
+      "gasPriceWei": "1000000007",
+      "feeWei": "212582001488074",
+      "feeEth": 0.000212582001488074,
+      "latencyMs": 1007.7985479999988,
+      "hash": "0x68e59fdc65aad6e14074929163f10f0dbff56fec5b5b5f1904c98525b6c873d9",
+      "block": 259
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74373,
+      "gasPriceWei": "1000000007",
+      "feeWei": "74373000520611",
+      "feeEth": 0.000074373000520611,
+      "latencyMs": 1038.6970299999957,
+      "hash": "0x30a0bec8b826a2c197eef8867d1f8b23384b5c7caae895371d01c890d8ea91ca",
+      "block": 264
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000007",
+      "feeWei": "29253000204771",
+      "feeEth": 0.000029253000204771,
+      "latencyMs": 346.76658899999893,
+      "hash": "0x1fba3ec5067341d31b2f767ebc858c0a6f45db8c563dc5acd10a3dd5a95278a4",
+      "block": 271
+    },
+    {
+      "operation": "record_upload",
+      "gasUsed": 212594,
+      "gasPriceWei": "1000000007",
+      "feeWei": "212594001488158",
+      "feeEth": 0.000212594001488158,
+      "latencyMs": 1030.6029710000003,
+      "hash": "0x243f4d602e2924dd9e3ebe6a28f2e61882d14f192444120ae192b6d4b0df7eef",
+      "block": 277
+    },
+    {
+      "operation": "permission_grant",
+      "gasUsed": 74361,
+      "gasPriceWei": "1000000007",
+      "feeWei": "74361000520527",
+      "feeEth": 0.000074361000520527,
+      "latencyMs": 1049.6353439999948,
+      "hash": "0x760bb90e009b5679617fcd9c164755c41c3d387eb36efc4adf4d8bb78e39224d",
+      "block": 282
+    },
+    {
+      "operation": "permission_revoke",
+      "gasUsed": 29253,
+      "gasPriceWei": "1000000007",
+      "feeWei": "29253000204771",
+      "feeEth": 0.000029253000204771,
+      "latencyMs": 339.5703949999952,
+      "hash": "0x1a8f4383904cb42badb9e78de147a9c971c7c37cfbc77b9330313a025d5e2ec4",
+      "block": 289
+    },
+    {
+      "operation": "worker_registration",
+      "gasUsed": 364053,
+      "gasPriceWei": "1000000007",
+      "feeWei": "364053002548371",
+      "feeEth": 0.000364053002548371,
+      "latencyMs": 397.7993470000001,
+      "hash": "0x02fe3f22f2dfbe094e6a1eb42def0f7babd3b1146e93c2b36050fe2851a4a73f",
+      "block": 290
+    },
+    {
+      "operation": "worker_registration",
+      "gasUsed": 364053,
+      "gasPriceWei": "1000000007",
+      "feeWei": "364053002548371",
+      "feeEth": 0.000364053002548371,
+      "latencyMs": 391.3650110000017,
+      "hash": "0x351a8b65eb15a27cc89c29015ca1a23d4c9bbd5d807f045b64e236401759056b",
+      "block": 291
+    },
+    {
+      "operation": "worker_registration",
+      "gasUsed": 364053,
+      "gasPriceWei": "1000000007",
+      "feeWei": "364053002548371",
+      "feeEth": 0.000364053002548371,
+      "latencyMs": 375.5142369999958,
+      "hash": "0x99b8f0e95422f62ca3b835016b3dac701d8c4fd28663a27b208ff95ef126020b",
+      "block": 293
+    },
+    {
+      "operation": "worker_registration",
+      "gasUsed": 364053,
+      "gasPriceWei": "1000000007",
+      "feeWei": "364053002548371",
+      "feeEth": 0.000364053002548371,
+      "latencyMs": 400.2037659999987,
+      "hash": "0xcade58026bdccbb96155379662d20e647cd2b5d97c4940bf3837ef89e985a5f3",
+      "block": 294
+    },
+    {
+      "operation": "worker_registration",
+      "gasUsed": 364053,
+      "gasPriceWei": "1000000007",
+      "feeWei": "364053002548371",
+      "feeEth": 0.000364053002548371,
+      "latencyMs": 408.11475500000233,
+      "hash": "0x644d4c311a618f0a931715b592eebc9fd066f922dc9fbbd66a7b6fc9213c6cf8",
+      "block": 295
+    },
+    {
+      "operation": "worker_registration",
+      "gasUsed": 364053,
+      "gasPriceWei": "1000000007",
+      "feeWei": "364053002548371",
+      "feeEth": 0.000364053002548371,
+      "latencyMs": 405.88104799999564,
+      "hash": "0x06a5ea58e7741a290fc82f1b4aab009769012c24016b5f0def62d12d5eca09cc",
+      "block": 297
+    },
+    {
+      "operation": "worker_registration",
+      "gasUsed": 364053,
+      "gasPriceWei": "1000000007",
+      "feeWei": "364053002548371",
+      "feeEth": 0.000364053002548371,
+      "latencyMs": 454.8209149999966,
+      "hash": "0x1427768ade50eebc89e55e6e47da6968ca980cf6564379bcbe4c66bb159809c3",
+      "block": 299
+    },
+    {
+      "operation": "worker_registration",
+      "gasUsed": 364053,
+      "gasPriceWei": "1000000007",
+      "feeWei": "364053002548371",
+      "feeEth": 0.000364053002548371,
+      "latencyMs": 389.98498400000244,
+      "hash": "0xdaafd24e262bbaed016647c15201922a02a07f6c16fd95db13a3db1bc3ae588c",
+      "block": 300
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 308.17025499999727,
+      "hash": "0x91eddccb51c20bf88564a51a16d670a926b1e91a632362f65170799c1506fe1a",
+      "block": 302
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 311.3602930000052,
+      "hash": "0x176306a3923379c0092ac839d86aed939b987706f1eccf9f6341f69ab55f9bf4",
+      "block": 303
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 311.03087100000266,
+      "hash": "0xfa0ac703c8ed1c62899eba8031c89f35b4b0862b85d2d12add4e8b50004c91b8",
+      "block": 304
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 308.47827600000164,
+      "hash": "0x27688a7bc607ea96035aa8fc3e7942cbab957d2ad51e6137b7db6d77854dfdd5",
+      "block": 305
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 312.70760500000324,
+      "hash": "0xa3b2817de8189c6d39906259fb6f56b040a014b196bdd6f7309206751fcf958e",
+      "block": 306
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 316.8831629999986,
+      "hash": "0xaf945f6f69493a84355d492789f19b3a335df178e7069c6b242457ef40d9c3e9",
+      "block": 307
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 311.42149499999505,
+      "hash": "0xc93c1287fa45d076a319fe69c62abcc3cecf3094c58c6564619925290c4857c9",
+      "block": 309
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 307.72392099999706,
+      "hash": "0x3edbb908f382ddd1f85251dcdcc34de3ff1c6b529f35c738cc9223b59f213058",
+      "block": 310
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 329.18631099999766,
+      "hash": "0xef0bbdb85033aa76b3d602cb43720c1e9aaa00a116ef010364571919585f1938",
+      "block": 311
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 308.00614399999904,
+      "hash": "0xad17cfd8e420b94bfcb64f0893a1b5838e4a5b2e40daea80e96cad1046d9e18e",
+      "block": 312
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 326.58304599999974,
+      "hash": "0xc5ffceeb3116bb6da4ae79cb004c3adbe434a737f861be367e7039ffab5fbae2",
+      "block": 313
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 326.46464800000103,
+      "hash": "0xa36ca65fde11cccce723f4d4fc0c3d2fd21a4c867685a26969abfd126d7f557c",
+      "block": 313
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 326.49732600000425,
+      "hash": "0x4ef167e760910229cef1355e57c10f0090c62f57b9558a376a12a0770257d3f2",
+      "block": 313
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 326.50728199999867,
+      "hash": "0xfd8f259911c66a8599bae8e2251da5fa1684b9de78e7947458d4344066c131b3",
+      "block": 313
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 332.7931499999977,
+      "hash": "0xa7136aee8845ff18eaae184f1910f6734b078a46eeccafa833b7264b11917199",
+      "block": 314
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 332.7541029999993,
+      "hash": "0x465963f1a8ee26b642817615a41fafa2df4be1b6d967e26ecf69803d0fcc21d0",
+      "block": 314
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 332.7348339999953,
+      "hash": "0x9a33262c87dcf031919ee18f4b7e03a5b9fa4edeb3eada3d2c04573062feab33",
+      "block": 314
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 332.72539600000164,
+      "hash": "0xb5ea41fabe5e07a640617751197eb3dd4eb94ee87b178fb17a47f505c38907da",
+      "block": 314
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 343.2351699999999,
+      "hash": "0x83c3f04f3a4824eb7b9824bc00a0366eee3815b5785dadd8cde636230602b2a1",
+      "block": 315
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 343.2825099999973,
+      "hash": "0xa5d722d7a689dea392d90b03e1549de07466da6938a26c8f7ee006678b810db0",
+      "block": 315
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 343.2860419999997,
+      "hash": "0x2a4eb813b9b13aa29264103d87634905dbc413e76ebd2729d75f2084da8f3a60",
+      "block": 315
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 343.2891060000038,
+      "hash": "0x5614ba01967e1e175b77f6cdc8238608c07aa54bf54e52b0c12e56849b0f7642",
+      "block": 315
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 342.12441599999875,
+      "hash": "0x877f15d01246a9e3d8d37efb21c7d6ca8854739f79935b38ffb41bfe210a90f8",
+      "block": 316
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 342.1239690000002,
+      "hash": "0x5620265d62cbcea96c3b9d3d66cff19dfe84d4e6ed33689407974c80e704f032",
+      "block": 316
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 342.1237889999975,
+      "hash": "0x596f16f840f8b636e736d1a89f491aba9cca1960f7539961dc616970c8255f93",
+      "block": 316
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 342.1247549999971,
+      "hash": "0x14bacbb503933fb480a107b668a91698ce92641b8eb818cc0f58585d225b3223",
+      "block": 316
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 608.0490010000067,
+      "hash": "0x02dda518cf10a2f8fcb1de2c27e0527d7ad7bea090327b233a62fd76317c0e37",
+      "block": 317
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 608.1116939999993,
+      "hash": "0xb4de7567c8cef03fd32f2225ebc8826328328661a55b56e1de0e0f0d4089840e",
+      "block": 317
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 608.1184280000016,
+      "hash": "0xb501acfe56142f18dd60fe4f1499c324b2197b14942e59b04c0a464239e87ca6",
+      "block": 317
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 623.7682260000001,
+      "hash": "0xc51d698194a93fa7d6347fae9a4d4f5d29daa080b7cda5e76c3852221ce64994",
+      "block": 317
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 612.7077099999951,
+      "hash": "0xf4280e09ab3d441c7191277779c8adcc109ef068399cb5003142051cd4e9033c",
+      "block": 319
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 612.7529070000019,
+      "hash": "0x2930d54fee29f9a56e54846bb9981e367e2a6bcd6cd304b238656341177f0ef4",
+      "block": 319
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 612.7571390000012,
+      "hash": "0xe03c6e0cc9a0c049a55a803a4f3a407b987c842cee8011235ac9d5b00ba7c3ca",
+      "block": 319
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 597.4050330000027,
+      "hash": "0x9a8bfeb95b5f310cc024c3babcc7deaeaf643a15d73fb7db6206dd9c28178e95",
+      "block": 319
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 597.7961329999962,
+      "hash": "0x35eceb539d5958cdef51f990a813a8ea0d9ebff3e4fb6bff538c0f4e7fd5c09d",
+      "block": 321
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 597.8388679999989,
+      "hash": "0x2c1cba2df6eabb7172f852d231dbba1383f1fc67095ec170b9ffac325b473a9c",
+      "block": 321
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 597.8380919999981,
+      "hash": "0x21a7af2322b1af2ce9f837edad6b3c9ffc1a87b0263833f2dc4c30afdcf39578",
+      "block": 321
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 597.7398729999913,
+      "hash": "0xe6b78323b343c825b8cd38832aac302b9c532d2e04bf1f8afc4dca6cfac9d4a4",
+      "block": 321
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 609.1081600000034,
+      "hash": "0xf31ecbd40a5afa106bf971adbd0c32de6ab7e994e717c187ae11af417849f924",
+      "block": 323
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 609.0261219999957,
+      "hash": "0x78eae47335123f66efb18dfb7d816eec698513db90907dcd22fb4c576c88c88a",
+      "block": 323
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 609.0135639999935,
+      "hash": "0xfa5614726886d1d50b7b81fd3249792278e38812cc539a8a38bdac657acb5163",
+      "block": 323
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 609.0046759999968,
+      "hash": "0x82a5cbfbeaac3f3013d019e66701741d949994804daf2c3b178ed7a46d946885",
+      "block": 323
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 342.1259310000023,
+      "hash": "0x1a51272521305e1b52f6d2541d4a69ac99646e4011c234619752c6a2e2fd5438",
+      "block": 324
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 342.14163800000097,
+      "hash": "0xd969ecf34e4d653e00c1026da98172809cb22ee2551846284bf648b6b7881524",
+      "block": 324
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 342.1434339999978,
+      "hash": "0x179143392feb09cfd2388d6c6087b3be90b2e859446437a7f5c2a5f7c83b0ae9",
+      "block": 324
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 342.14430900001025,
+      "hash": "0x4992c98c4872b32835f2107e13cbee58a69174f67221c497d1c12f10a0c41b13",
+      "block": 324
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 329.2818879999977,
+      "hash": "0x48cd652630d0dfc12cec0b1bc50f056b30df0023270598b7e6f94da68f2a5788",
+      "block": 325
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 329.2875090000016,
+      "hash": "0xdc0b42978a5b382236a3e918c067906ece57314ee619c7589152538ee00585f4",
+      "block": 325
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 329.28732899999886,
+      "hash": "0x5537f00659f3ec5cb20750999585bf6ccdfa4e52801e0f4ecece3db42aa49196",
+      "block": 325
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 329.2867419999966,
+      "hash": "0x2184d48e8344c25b31cd61e479052cc02cb657713f3f8bc15bdcca75aac435d3",
+      "block": 325
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 621.4170279999962,
+      "hash": "0xc496d5613c87ee8342bee5fe71462d331a0c9ef659c9c69dc3abb72299f10fec",
+      "block": 326
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 621.4785789999878,
+      "hash": "0x81eb8423102b1133165f98c32b83c1e680ccdfab5bcccc29e51aa9a5ee695c7b",
+      "block": 326
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 621.4865870000067,
+      "hash": "0x1711916dee84f9ea0aaf808a282b7e0f20dd27030ea7bf74e5ca346139f9d1df",
+      "block": 326
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 621.4892280000058,
+      "hash": "0x7369db55d1467386fa1e87905f6872ada2ed0eb27ce8f33b60dea798c59c8a22",
+      "block": 326
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 344.9567160000006,
+      "hash": "0x6f5d120404f123a335de401600670806540ec026c98c2f3e43e999cadbb84d69",
+      "block": 327
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 344.92226199999277,
+      "hash": "0x6468944476dfacfe20eba167b6a69261856c28d1ffd632c14266bd4dd07b2b76",
+      "block": 327
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 344.95946600000025,
+      "hash": "0x579d79aa59d2f1b5beb4cde8e8353aafcfea9bb3565f4ba9a510fcca10b4cef1",
+      "block": 327
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 344.9349990000046,
+      "hash": "0x06821e7cf1fd7416ab2c52672339e9c9e9a5b91eb36950b0aa48649ec5c1e4b4",
+      "block": 327
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 319.6810489999916,
+      "hash": "0xfd959c949036b83d46690a758511546c98530e1eb5d3df026f3ce3e36173457a",
+      "block": 328
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 319.6052820000041,
+      "hash": "0x3de9d0358fbf45e03507605e1f55be3d65af7b7d98542ee54c9a543fd819df85",
+      "block": 328
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 638.5024930000072,
+      "hash": "0x3c7a4a1098f140d132fb2bc1b176c081d7a8c223d868d53669ca1e4509c130ce",
+      "block": 330
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 638.537697000007,
+      "hash": "0x1799e8328424bcb367bcf0c4d0a593ed3b7784bca6a840ca36dede4e686f9ccd",
+      "block": 330
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 638.5415309999953,
+      "hash": "0x2b264205e29654c0d5ec6fbd6da2e227f9a81c0fa81310ed6b1963018f0859db",
+      "block": 330
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 638.5418380000046,
+      "hash": "0x6e4766c477945fc19eff28b69dee19fb504f8bad30df88cbda25541e27bf3f64",
+      "block": 330
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 638.5367220000044,
+      "hash": "0xfcea002a9b05a8133bc581363d2289f90c10ad353124d7ae710319235b483f33",
+      "block": 330
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 638.4774400000024,
+      "hash": "0xe1a2d8ae553d779d19a3249e1afde591fee2e5201cbdf7501adf1d880a7414d5",
+      "block": 330
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 638.4727160000039,
+      "hash": "0xac93eeca42e0e1eecb46d5bf475de8d681be2804f816d48b216d053324661e2c",
+      "block": 330
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 638.4726580000133,
+      "hash": "0xd9be6cb5a192aa3eb4cbc1023e7bf388cd1336a04c499a7e5e32d8ce896c6f44",
+      "block": 330
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 359.37133700000413,
+      "hash": "0x21acce49d5e10b2d81afbe5921a12dd7339694380a8bc24a7ef29ac9324bbb76",
+      "block": 331
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 359.4903639999975,
+      "hash": "0xf581d2fdcf75b424a195c65456afa73c5e6ba2e1bec7d00d0c9ae35f6cc15920",
+      "block": 331
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 359.5001090000005,
+      "hash": "0xb32637fa3f8fd5b50e219528dd7084e3b57803abe6688d4bcf4421b04813ca53",
+      "block": 331
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 359.5380909999949,
+      "hash": "0x7cf0f6ccda69d5f6641dfb5cda439316ab67a3c66b7a3b65917493a242055f2d",
+      "block": 331
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 359.54286899999715,
+      "hash": "0x8bf1847c87d1353d2c6a7bb42c9b7dccca229d946554933e18f99085bb9ee81d",
+      "block": 331
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 359.5456220000051,
+      "hash": "0x92791a2a1fbca592e5b5e836174172a220bb07023f3f4784fdfea22807f37880",
+      "block": 331
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 359.5476609999896,
+      "hash": "0x2a90ad69602236f2db3677e7e8a1426ff1f06f370a9194a190a2761f58b01b63",
+      "block": 331
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 359.5490589999972,
+      "hash": "0x995dbf0614b6c1ab1b176db661669167df5eea208c84e66a839ae71d0a9fd286",
+      "block": 331
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 619.509567000001,
+      "hash": "0xac4b22d898d67881ba9bc7276fc1c344504656589f355984422035560d8b7402",
+      "block": 332
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 619.432095000011,
+      "hash": "0xfd8b17082b6f220de4ed4d1862020fcda4d9ec39e968868fc9f8c9b2de8f4906",
+      "block": 332
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 619.4263409999985,
+      "hash": "0x10489fed60840f38be6033f3e2c4fbb6928106e4d351a8a0a00dc7062025f45b",
+      "block": 332
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 619.3876679999958,
+      "hash": "0xb50cebfee41fbe24abf9285ce9c967000a6923dd7491ab3a07f87d841c8494a6",
+      "block": 332
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 619.3885200000077,
+      "hash": "0x8b3e06f951b2d60c0ab83417f765c462ae467eb6f90ba1eaffe68ac42deac5cb",
+      "block": 332
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 624.8599099999992,
+      "hash": "0x7cbd128731915e7dde4fbbbf20cd4f217a5c14a91dce12daa7e804fd21819a78",
+      "block": 332
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 624.8802140000043,
+      "hash": "0x9e9fb885b9c66b393d61867762038d819ecb050f0878082992d1ac998d8bf542",
+      "block": 332
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 624.8842389999918,
+      "hash": "0x8e0382b291ccc7a08c4671bc4e01f7fd23b9e264ad02c99ae06d174bc0c8c70e",
+      "block": 332
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 645.0364269999991,
+      "hash": "0x432d08f56872ce53ccb2230a6c727ee8a0a670b37644c49636c65af24dbfbaf6",
+      "block": 334
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 645.0815430000075,
+      "hash": "0x749e18425764f412f607759310b064fd496574f0c148b12b3b42eef22694bef9",
+      "block": 334
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 645.0882719999936,
+      "hash": "0xb367b2ca45d48727441e79709236e117238d5c8c9a5bb98d2b4051fd90763c0b",
+      "block": 334
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 645.0886210000026,
+      "hash": "0xb93d0d35227d958e39fdc618b5c38fa92f83524b77cb3257323949e544347fc6",
+      "block": 334
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 645.081984000004,
+      "hash": "0x69eaf25ec06abc3d2604ebad686a0a8728551c4abc54fcf066c622dfa8cd9fb2",
+      "block": 334
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 639.602389000007,
+      "hash": "0x3c1c08ce61289248c0f749ea2cbf3c2d668a467cc1c70bddc4dd9c24250c2db9",
+      "block": 334
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 639.6026119999879,
+      "hash": "0xf68ce214bf3e4a5e0b2212beeb2d6f277370b8582ecaa7f5172bcc940edcb0b5",
+      "block": 334
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 639.6031760000042,
+      "hash": "0xce136a321dceb9ec73a8fdd6e398c5eb07bbd6077cba3da7057ea6aeda3d8291",
+      "block": 334
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 667.1898840000067,
+      "hash": "0xcfb719fb4ca0d25c1cc22e5cc7e13298a8967083cab57e58e9a8fd641f0af35b",
+      "block": 335
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 667.1335729999992,
+      "hash": "0xd28820e2c6367fdb70c7338859d6160b89a9bab00d542a475cbe38848d2712e2",
+      "block": 335
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 667.1293180000066,
+      "hash": "0xa190e3b142a94cb5ed3104ff5ff2e2221c733c211a66c4ff01293bf15afa4e38",
+      "block": 335
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 667.1292909999902,
+      "hash": "0xf31deb53cd7f4b176559d3279cdfe6c37d103817c4537710d161ba0ba7bc0bec",
+      "block": 335
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 667.132071,
+      "hash": "0x2eaca24d7d18d0330b47de33b56883119fba09551ec69742959abb2847a2fd74",
+      "block": 335
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 667.1293880000012,
+      "hash": "0x4ba31165381f9d81047bcdcd7949b5a02fc321e434063449708e471b9e0ad08f",
+      "block": 335
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 667.1111319999909,
+      "hash": "0x0ac94eb2c07767247da65c416e294a225c34f0fc97248114fb432bcbd3a0cf16",
+      "block": 335
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 667.1074930000032,
+      "hash": "0x663c9e5e5d1ca0a4bd0c90f07fb3c263a4b553751b374730bbe459c9271b36eb",
+      "block": 335
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 642.7269240000023,
+      "hash": "0xa04812940212d95890d1441728e743d900af9781dfd6b81721fd15918ef6d5aa",
+      "block": 337
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 642.7272190000076,
+      "hash": "0xcdfd10e34de9cef754fbfc7531d0a2b800088298ed2876cbc096903d7b996692",
+      "block": 337
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 642.7247549999884,
+      "hash": "0x9145b7f9c2f424fa1468d7066f7b8b4c8e4fc5c35c3987f859a8e535a43f6095",
+      "block": 337
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 642.7234259999968,
+      "hash": "0x58445e694a22e50b13ae097b6945535045759497719beb0b522f3babf3fb7ffa",
+      "block": 337
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 642.7219719999994,
+      "hash": "0x558ae9b75ad6b4a3abcc9d7e5ab032284192e08016884d9756b50f98651495df",
+      "block": 337
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 642.8077020000055,
+      "hash": "0xfa3d16e54192a0b4c471e5bc3a85c2a721977a28f17927ed86efa43dccb505c9",
+      "block": 337
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 642.820716000002,
+      "hash": "0x90e8584bc0c912ed4a6411318c0807fd35115ff44ddb8ceb727a0ee59b636742",
+      "block": 337
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 642.8211549999978,
+      "hash": "0x4f1f99622ae910ede653f0ddb582524acce6bfc1793a6fdffe6dcefcb63957ad",
+      "block": 337
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 627.0626239999983,
+      "hash": "0x1d495cbae10306924dbb6b7ed664e5d2d4a98e4559b6d791c15f6449b7e5570b",
+      "block": 338
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 627.1784440000047,
+      "hash": "0xb938a6cc86c455ebf0228419add3d3f8596d8ebf367c15c76bbe28a4730cea9a",
+      "block": 338
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 627.1874329999991,
+      "hash": "0x2c8f1c42793cb284fb498a5d0cf63fce1c880d2e837c26c7f2d0e3d2104edb72",
+      "block": 338
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 627.1875589999981,
+      "hash": "0x533478b01b906e86342a4091d2dc2f3fbd4ef90cf2ea9f9964cdc38527473de6",
+      "block": 338
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 627.1889689999953,
+      "hash": "0xc437273e051fb150038fee3e42ad379dcebe6eb430a36d3c9ff63016cb18681a",
+      "block": 338
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 627.1028179999994,
+      "hash": "0xbdba81eb6ff080daa4c2aec82ce5fa0b7ea3d18149252a2283a79453964a63fc",
+      "block": 338
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 627.0924159999995,
+      "hash": "0x0f41fe192ba0f7c30a8374a9f9cfbcd5e9cfc54a443677e27d2b8501866d6055",
+      "block": 338
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 627.0917349999945,
+      "hash": "0x14c05ca0d6c07dd43b9b328fa04bb6204f9532153484596ed3f93765aa110ded",
+      "block": 338
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 626.1686309999932,
+      "hash": "0xe159b33ebb6c870de0e77685680475dfaa53708488cac75a8765258664ab6748",
+      "block": 339
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 626.0787139999884,
+      "hash": "0x112856ac8398f80d2e486320848b995ec1ccb584f8d1c3090a196d99596e5104",
+      "block": 339
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 626.0761579999962,
+      "hash": "0xee9ef098aa696e9f01aa92744fd715a8b328157e0e87a588f9777e5848bc417e",
+      "block": 339
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 626.0766570000123,
+      "hash": "0xe42810f85a5cb455818c7427aea2bb641f9cc1d9f708367dce4c1d6ba71756fe",
+      "block": 339
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 626.076138000004,
+      "hash": "0x8c726181ec3093f1588ffc20429b90465352706d921f56eb673b63dc9aad3773",
+      "block": 339
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 626.0765450000035,
+      "hash": "0x16e7f4f95c4be9489f03b7dd2ecf5e31df9ef27b9d5a938e6dfe1d34f6fdedf6",
+      "block": 339
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 626.0768360000075,
+      "hash": "0x66f8c881341c81ec7079e3913ee561325061445374ea1966fdced1abafc250f6",
+      "block": 339
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 626.0768059999973,
+      "hash": "0xa359257b7c1d584d7b2fe086a039f79e795fe08017e2a2962acf02e15c291c10",
+      "block": 339
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 614.8077790000098,
+      "hash": "0x68bd58ad88ee1017b782a3f3cea88301a92519c85496ff5d9e2325f13c179801",
+      "block": 341
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 614.8089579999942,
+      "hash": "0x6e44564c334d73ac7765caf8bf68b69ef0b3a1e2d0613b162dacc61fbbb771eb",
+      "block": 341
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 614.8687479999935,
+      "hash": "0x7a97964274c783789d6fab13cbcdcc55a67ccef6f61ba36ac73aea53e3f6869c",
+      "block": 341
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 614.8699510000006,
+      "hash": "0x2e9c3281c5bd5b37709ae7454a8bea3c3941f118532f59061904908c8162055a",
+      "block": 341
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 614.8714669999899,
+      "hash": "0x2c1315523c6639431627d9ba627b63f83cf1cb0ff7f04c1f7ccc81222242c684",
+      "block": 341
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 614.8703620000015,
+      "hash": "0x944a6ed3b55ebdc9523a199a66e2677c308db0256791d166cae681c6253b08e5",
+      "block": 341
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 614.8723699999973,
+      "hash": "0x7b2bc741516eba853466b5416baa7a597dd0a0797857da48a3f2799a71303849",
+      "block": 341
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 614.8722689999995,
+      "hash": "0x9ec75afa7faba6dc45e8a34781a219b8fd3fdf1688d0f2b7c528e1c46366ef64",
+      "block": 341
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 623.4245159999991,
+      "hash": "0xcf734a304a71d4b2a45586778616c27f404b4c9e3ff5853224383a7358b86024",
+      "block": 342
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 623.4275280000002,
+      "hash": "0x66b2d2ac2b4d7240355fb0bb43b6dfa532b8508f0bd62f09274d0526ee6e5d64",
+      "block": 342
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 623.3657550000062,
+      "hash": "0x104fb735134f030bfdd1018dc20602328ca595ee6a36082fa348d0a0825f7b62",
+      "block": 342
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 623.3634259999963,
+      "hash": "0x40cea690e6ed491b11ac5e9b8829eb6c087577d2c5f56e0e81d2bbf671619d6e",
+      "block": 342
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 623.3605530000059,
+      "hash": "0xeaea782bb78ff0e47fdaf54c0c274ea76fa6642e14a79117d59a04d83dead03f",
+      "block": 342
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 623.3600129999977,
+      "hash": "0xc56310104fa7aec4e4118ae07f1c67c2ec2facc2f2dfad8b4f46a7f7efbc28ae",
+      "block": 342
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 623.355150000003,
+      "hash": "0x7f2425b3599588423f2bc96ed16241839654cdc29638450304605d9418f5e99a",
+      "block": 342
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 623.3545949999971,
+      "hash": "0x21219e7721960a9e6640c56ab12dfcb114ff938b5869cc93b33034ce03472e81",
+      "block": 342
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 616.2126819999976,
+      "hash": "0x831fd87f3d3ee881bf9a15227e561117a64f04adb3b8635d7e5151034817afbd",
+      "block": 343
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 616.2342590000044,
+      "hash": "0x28fa91a619189cb380f863e29332aaec114bd5e883df013db63cf17cab625e01",
+      "block": 343
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 616.2349519999989,
+      "hash": "0x2c80ff594614b8e895cfd60d3fb2980342c6e0bdcde3736bd230802ed67ec141",
+      "block": 343
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 616.2387049999961,
+      "hash": "0x4ad8f0149782fcaaa47ca735d8b8e117961688748276221b07e7fb3cae5c2e70",
+      "block": 343
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 616.2385290000093,
+      "hash": "0x850943a24d28e10b52f9750507e1bfd8a5b16d3182b0f374a4514375fcd0296a",
+      "block": 343
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 616.2394970000023,
+      "hash": "0xf562f37de28ca5b93ab28c07727c95b6ba9dbb397539055b333cabfcacbf57a8",
+      "block": 343
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 616.2401210000098,
+      "hash": "0xff31dab1898fd9702f64a48e67d227e2c38e783ae4eb403f5803fb94c1a35f78",
+      "block": 343
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 616.2398870000034,
+      "hash": "0xae8f88afd4a6ad5a1b73ebac66f5bb036b610fdd2e7fc4dabe979dfae0abe294",
+      "block": 343
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 355.4731860000029,
+      "hash": "0xdc0e164340f6abc3b6139042e808b0570cf3f670c0ad9963d01dcba4c5591f59",
+      "block": 344
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 355.47710099999676,
+      "hash": "0x27f528c2677b437965cbd839b35e3168cd275d6a6c4001722931d6b04d2a6bd8",
+      "block": 344
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 355.47568200000387,
+      "hash": "0x2ec1e17a3747a2c6e82ac234c9617307595fd15537a72c7c098c30a8cfd5b940",
+      "block": 344
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 355.4741950000025,
+      "hash": "0x80c887b067457e479a7672e42505f988349b60f7d4a855d4ac2f6560ea611a24",
+      "block": 344
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 355.47465399999055,
+      "hash": "0xe2ccf688156a632c3e33d784b9d7fe8c296397afe4470c5a49cb48f06d69819e",
+      "block": 344
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 355.4548829999985,
+      "hash": "0xf4ef59c37ea2e0dac6b8b3bb55e8b7cb9f24db2f9f0c767debf1a91b612f2645",
+      "block": 344
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 355.4337979999982,
+      "hash": "0x74435470a2699f293b7ff91e78ef57090eb72acfe1722be14d3e61547da46b69",
+      "block": 344
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 355.41281699998945,
+      "hash": "0x28b872abcea25c0f96927d389cf7114e2d5f808412c3cc97ff4bc2480e6f0370",
+      "block": 344
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 335.99225500000466,
+      "hash": "0xe1397e3fab41e50a25e4a2fa08c25548e0e0f26983ae5d5f3936a3caa7b36fdb",
+      "block": 345
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 335.91968600000837,
+      "hash": "0x8bc6567b08ef40df198bb40a4197fe1a87d17f966a704c3deeeb4332a3d11955",
+      "block": 345
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 335.89398600001005,
+      "hash": "0x23b19ef62c9a8e4fee7c424a1e5e579dfd23e6b4166c036b4af7ea433e47723f",
+      "block": 345
+    },
+    {
+      "operation": "load_record",
+      "gasUsed": 212582,
+      "gasPriceWei": "2000000000",
+      "feeWei": "425164000000000",
+      "feeEth": 0.000425164,
+      "latencyMs": 335.870797999989,
+      "hash": "0x3c49396af7305bd0cb840f1dde76cae22596e73564a6a0590973e4fd7079cbe0",
+      "block": 345
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "12182",
+      "feeWei": "328914000",
+      "feeEth": 3.28914e-10,
+      "latencyMs": null,
+      "hash": "0x9e9c6ecbc331bc145641f5feb1917ee3bf6683b42c6f84aefa2fe8cbc7c741fc",
+      "block": 87
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "7149",
+      "feeWei": "226108572",
+      "feeEth": 2.26108572e-10,
+      "latencyMs": null,
+      "hash": "0x2053eb35cc3628404ba2bd7872cf8af13fb20248e3204bdea5a505275b2ba0d1",
+      "block": 91
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "3219",
+      "feeWei": "86913000",
+      "feeEth": 8.6913e-11,
+      "latencyMs": null,
+      "hash": "0x666a75c1f9eb348e85dd13a224315d415e9346d378ab92232e88309e74cfbd2f",
+      "block": 97
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "1890",
+      "feeWei": "59776920",
+      "feeEth": 5.977692e-11,
+      "latencyMs": null,
+      "hash": "0x4f06911b2c71e2350b4522b389bc03b7b3cd0e4f14e3c6617290954313bb3964",
+      "block": 101
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "852",
+      "feeWei": "23004000",
+      "feeEth": 2.3004e-11,
+      "latencyMs": null,
+      "hash": "0xfc22dd23cf94b6cb9780ea8a02c6614843c921f6dc202dbf878780eebc7b7e6e",
+      "block": 107
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "501",
+      "feeWei": "15845628",
+      "feeEth": 1.5845628e-11,
+      "latencyMs": null,
+      "hash": "0x82233e56259150b9de874a6dd35eaed02c7a3bc8aa60149911463d097f9e14a3",
+      "block": 111
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "228",
+      "feeWei": "6156000",
+      "feeEth": 6.156e-12,
+      "latencyMs": null,
+      "hash": "0xc70046403fd87a3bf8df171aa3cd15c4300dd3605d13082b3e4ac33ee37b170e",
+      "block": 117
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "136",
+      "feeWei": "4301408",
+      "feeEth": 4.301408e-12,
+      "latencyMs": null,
+      "hash": "0xc91d7e2d9b26ed67ae5a710cd9633f63e6cbef0f4bca820ec294174571c8b8ec",
+      "block": 121
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "63",
+      "feeWei": "1701000",
+      "feeEth": 1.701e-12,
+      "latencyMs": null,
+      "hash": "0x9819f5a3f7010f5ae7761cd732d45ad4e888941042d2b945cf0d719e5d0c4334",
+      "block": 127
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "38",
+      "feeWei": "1201864",
+      "feeEth": 1.201864e-12,
+      "latencyMs": null,
+      "hash": "0x82e2796ba671d4241c457a2bf0d7a7aea16398f1795224da47b12eb4bb18689c",
+      "block": 131
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "16",
+      "feeWei": "432000",
+      "feeEth": 4.32e-13,
+      "latencyMs": null,
+      "hash": "0x3e9f3622981956207b930f87ad9d8fc1e5a1b20ef1305995c3ff8aa8286935ed",
+      "block": 138
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "12",
+      "feeWei": "379536",
+      "feeEth": 3.79536e-13,
+      "latencyMs": null,
+      "hash": "0xa6ce949542257d6902e6b42ec849cd448b2b5d632b3a1993e30349ceb4037706",
+      "block": 142
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0xc06335999bdf3afa27430ef10c04a7f5ae3af81a6aedacd77406c2fbc95129f4",
+      "block": 149
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "7",
+      "feeWei": "221396",
+      "feeEth": 2.21396e-13,
+      "latencyMs": null,
+      "hash": "0xa06285758529d12cb78ac18da788ced07955fa408682fcf00dd2ef79dc621a81",
+      "block": 153
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0x22fe155b923b6f7eeea9723f662b2a7466db67c1032d5d08dbc6e8a66d7cadbb",
+      "block": 161
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "7",
+      "feeWei": "221396",
+      "feeEth": 2.21396e-13,
+      "latencyMs": null,
+      "hash": "0x11cee2bb91d48745c59d8c6e4e5e71be58400c040cda18ec215918981c775940",
+      "block": 165
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0x2642ba464c8701d9e70d11b438c4536df4d3e53f83f958f45d8c03b0979b5192",
+      "block": 172
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "7",
+      "feeWei": "221396",
+      "feeEth": 2.21396e-13,
+      "latencyMs": null,
+      "hash": "0x509d0d2e0236c8921a4b08c5d2ef1ea628127178508abb412ce3f9e4b2e55c8c",
+      "block": 176
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0x8d82195436e0d4c36058e454c4be1922c4e98bd82cced0625a1d418634adfd59",
+      "block": 185
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "7",
+      "feeWei": "221396",
+      "feeEth": 2.21396e-13,
+      "latencyMs": null,
+      "hash": "0x19c8a6be6b20c98e078f90dfd0465f151beb3c1be40aaed58366e4420fce271e",
+      "block": 189
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0x3d2914bd6c3f31e261c9ff1c2f977d200270e41dd9cfa67f9bb0d3c41e7e3eb9",
+      "block": 202
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "7",
+      "feeWei": "221396",
+      "feeEth": 2.21396e-13,
+      "latencyMs": null,
+      "hash": "0xbbed46852518bf62897b09bc5ef963bd3592ba12755fea24edd7c729e74b99c0",
+      "block": 207
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0xe40c7fa910729f4135b30f9da898fff1b634e724af571b8e73b4073ed3f842c5",
+      "block": 223
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "7",
+      "feeWei": "221396",
+      "feeEth": 2.21396e-13,
+      "latencyMs": null,
+      "hash": "0xc899b00667506e311c75b37d0aecc7bc6b547573b91468eb3624ee9dff58e5d6",
+      "block": 228
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 26988,
+      "gasPriceWei": "7",
+      "feeWei": "188916",
+      "feeEth": 1.88916e-13,
+      "latencyMs": null,
+      "hash": "0x439c6a413525ce2915e92d669467752cefe7d1bdc867d881737b75494c25fce9",
+      "block": 243
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31616,
+      "gasPriceWei": "7",
+      "feeWei": "221312",
+      "feeEth": 2.21312e-13,
+      "latencyMs": null,
+      "hash": "0x25663741defc990d7741b54f612b9d31e63f0a4264da3d329cd7928cae68d0b2",
+      "block": 247
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0x1186c28a48598ceb2694a1303960e042758f54b7cab0fdcccde54f0dc5b7c5ce",
+      "block": 261
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "7",
+      "feeWei": "221396",
+      "feeEth": 2.21396e-13,
+      "latencyMs": null,
+      "hash": "0x2e241c1660cbafee8ff3e094651697355893d847b1360fd93ad224af2090c8e6",
+      "block": 265
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0x311682cd4cd42cd91a091031e24824a7eb058c5d9924a9a4d9f1591698af9781",
+      "block": 279
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 31628,
+      "gasPriceWei": "7",
+      "feeWei": "221396",
+      "feeEth": 2.21396e-13,
+      "latencyMs": null,
+      "hash": "0xe234dcc4d904249d93b0080ffec1f37dc9a850610e62948a1617d79f8641a1ee",
+      "block": 283
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0xcfc2d934b61b16e7a2b53825f02dc3b4d12774cad9d7bf03ffbc6dcbfe0cc95c",
+      "block": 350
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0x71d0b3739a48bee79dc7e6e88be872aea1c6e7d957f48eecffea599939d86455",
+      "block": 358
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0x89ff54f57d9a088b2e19012fa4296897675f32fe18e2f40ab93ea6b52be697b8",
+      "block": 367
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 27000,
+      "gasPriceWei": "7",
+      "feeWei": "189000",
+      "feeEth": 1.89e-13,
+      "latencyMs": null,
+      "hash": "0x41bb58f69749fbe8557192e7a22d57c405ea7a7626c40921986203408a2a20a7",
+      "block": 375
+    },
+    {
+      "operation": "read_audit",
+      "gasUsed": 26988,
+      "gasPriceWei": "7",
+      "feeWei": "188916",
+      "feeEth": 1.88916e-13,
+      "latencyMs": null,
+      "hash": "0x1372fb6beb4403f5cdd64b0939039ce8142b8ad786287d4ade1d04dc2922abf9",
+      "block": 384
+    }
+  ]
+}

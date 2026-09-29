@@ -1,0 +1,16 @@
+MEDILEDGER - SYNTHETIC TEST RECORD
+
+Record reference: DEMO-001
+Patient reference: Fictional Patient A
+Record type: Educational consultation note
+Date: 2026-09-03
+
+This is generated demonstration data. It is not a real patient record,
+a diagnosis, a prescription, or medical advice.
+
+Demonstration observations:
+- The patient controls ownership of this encrypted file.
+- A doctor or hospital needs an active patient permission to open it.
+- The application records allowed and denied access requests.
+
+End of synthetic record.

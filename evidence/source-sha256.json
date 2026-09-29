@@ -1,0 +1,19 @@
+{
+  "contracts/HealthcareRecords.sol": "f177df61fc1f20875af186d0cda4e6947a6e8b1e819d7c8f49137d3996e275f6",
+  "lib/client.mjs": "18dbb427d8b51436e0e4bb1b4bd9782e950b8c89a7b8a1885bf2a9bec3134da6",
+  "lib/crypto.mjs": "cbeda8ac6fa1ccca208b7e944584565d81ec15ab4ff879525613ff169d835631",
+  "lib/fixture.mjs": "f4e8a463e0e3d46ecad9030675bba69703fd6c4de726e94615587574061aac4b",
+  "lib/resources.mjs": "0d9c6166add2a20e801ccb0044941a6729c1bef0ec84e7f9aae92aeafd70315e",
+  "lib/server.mjs": "9b81cd1fac8775d73555f10670a32558f241f9d08c9d40e5a371b968990cc5e7",
+  "lib/storage.mjs": "4b00283e49d85d7b8f38334c5f590fbb407ca09fc5de97490a5fdf636b926ed3",
+  "public/app.mjs": "1c54a0501d9aa45d63d8b4247a40cc6d9660bc36c05d2f01792ec6af4235f5f1",
+  "public/diagnostics.mjs": "cfde5bf4f10a28af62e2b6cfef41d091a9479b516b503142ee143d9ff8c8cb32",
+  "public/index.html": "0268e43a74c6264c4c5e7099194d597a33b0065093b6e55fa472a584e1d52b09",
+  "public/style.css": "f2be710f7936454ed8fcd055de8c338be9e5c520f04590888bb321d99556ec17",
+  "scripts/benchmark.mjs": "16965920ae78b469ab17a6acddfb03aad39676a20a148c5c9db5217f62bd5682",
+  "scripts/compile.mjs": "46b56e75d671ca4eb3546f113f5a1617bf353d61a16ddee34e67b5c4da376f5e",
+  "scripts/demo.mjs": "4bd88f35f44ccb89f3cfa8020ce3d2d841a3bb2ce9bd8394985d329ba226df58",
+  "scripts/deploy.mjs": "5836a90d1c81e8d8dff92b3e5cf3aad76d43e26f4a04f0a572a46d539d951811",
+  "scripts/start.mjs": "5577dadd93c5acc8eb0abf1011b6c4705100110039f206f0378525e15ac1ce21",
+  "tests/system.test.mjs": "333f77b6be2c1ada4c3eff1e3a2bf6badbd2905b159a07cfce0cebaf8bb2d989"
+}

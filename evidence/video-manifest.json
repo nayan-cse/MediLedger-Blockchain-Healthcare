@@ -1,0 +1,90 @@
+[
+  {
+    "chapter": 1,
+    "title": "The problem and the goal",
+    "seconds": 45,
+    "narrationWords": 115,
+    "originalSpeechSeconds": 48.235011,
+    "tempo": 1.1088508275862068
+  },
+  {
+    "chapter": 2,
+    "title": "Architecture and trust boundaries",
+    "seconds": 55,
+    "narrationWords": 136,
+    "originalSpeechSeconds": 56.485011,
+    "tempo": 1.0557945981308412
+  },
+  {
+    "chapter": 3,
+    "title": "Technology stack and deployment",
+    "seconds": 35,
+    "narrationWords": 93,
+    "originalSpeechSeconds": 37.785011,
+    "tempo": 1.127910776119403
+  },
+  {
+    "chapter": 4,
+    "title": "Register patients, doctors and hospitals",
+    "seconds": 60,
+    "narrationWords": 146,
+    "originalSpeechSeconds": 59.415011,
+    "tempo": 1.0156412136752138
+  },
+  {
+    "chapter": 5,
+    "title": "Encrypt, upload and record ownership",
+    "seconds": 60,
+    "narrationWords": 139,
+    "originalSpeechSeconds": 55.13,
+    "tempo": 0.9423931623931624
+  },
+  {
+    "chapter": 6,
+    "title": "Share and decrypt with approved providers",
+    "seconds": 75,
+    "narrationWords": 170,
+    "originalSpeechSeconds": 63.15,
+    "tempo": 0.8591836734693877
+  },
+  {
+    "chapter": 7,
+    "title": "Revoke access and inspect the audit",
+    "seconds": 60,
+    "narrationWords": 142,
+    "originalSpeechSeconds": 60.265011,
+    "tempo": 1.0301711282051282
+  },
+  {
+    "chapter": 8,
+    "title": "The smart contract in detail",
+    "seconds": 50,
+    "narrationWords": 127,
+    "originalSpeechSeconds": 54.44,
+    "tempo": 1.1224742268041237
+  },
+  {
+    "chapter": 9,
+    "title": "Measured performance and scalability",
+    "seconds": 80,
+    "narrationWords": 169,
+    "originalSpeechSeconds": 72.855011,
+    "tempo": 0.9280893121019109
+  },
+  {
+    "chapter": 10,
+    "title": "Security results and practical limits",
+    "seconds": 45,
+    "narrationWords": 111,
+    "originalSpeechSeconds": 55.205011,
+    "tempo": 1.269080712643678
+  },
+  {
+    "chapter": 11,
+    "title": "Challenges, next steps and conclusion",
+    "seconds": 35,
+    "narrationWords": 102,
+    "originalSpeechSeconds": 44.23,
+    "tempo": 1.3202985074626865
+  }
+]

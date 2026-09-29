@@ -1,0 +1,30 @@
+{
+  "name": "mediledger-assignment-1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node scripts/start.mjs --preview",
+    "start": "node scripts/start.mjs",
+    "compile": "node scripts/compile.mjs",
+    "test": "node --test --test-concurrency=1 tests/system.test.mjs",
+    "benchmark": "node scripts/benchmark.mjs",
+    "evaluate": "node scripts/start.mjs --evaluate",
+    "deploy": "node scripts/deploy.mjs"
+  },
+  "dependencies": {
+    "@helia/unixfs": "5.1.0",
+    "blockstore-fs": "2.0.4",
+    "datastore-fs": "10.0.4",
+    "ethers": "^6.17.0",
+    "express": "5.1.0",
+    "helia": "^7.1.10",
+    "solc": "^0.8.30"
+  },
+  "devDependencies": {
+    "ganache": "^7.9.2"
+  }
+}

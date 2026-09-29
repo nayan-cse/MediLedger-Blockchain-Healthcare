@@ -1,0 +1,134 @@
+TAP version 13
+# MediLedger ready at http://localhost:3001
+# Subtest: 01 patient registration activates patient
+ok 1 - 01 patient registration activates patient
+  ---
+  duration_ms: 1847.585089
+  type: 'test'
+  ...
+# Subtest: 02 doctor registration remains pending
+ok 2 - 02 doctor registration remains pending
+  ---
+  duration_ms: 557.994682
+  type: 'test'
+  ...
+# Subtest: 03 hospital registration remains pending
+ok 3 - 03 hospital registration remains pending
+  ---
+  duration_ms: 571.852883
+  type: 'test'
+  ...
+# Subtest: 04 duplicate and empty-role registration fail
+ok 4 - 04 duplicate and empty-role registration fail
+  ---
+  duration_ms: 64.686733
+  type: 'test'
+  ...
+# Subtest: 05 non-admin cannot approve providers
+ok 5 - 05 non-admin cannot approve providers
+  ---
+  duration_ms: 27.982979
+  type: 'test'
+  ...
+# Subtest: 06 patient encrypts and uploads; exact bytes decrypt
+ok 6 - 06 patient encrypts and uploads; exact bytes decrypt
+  ---
+  duration_ms: 1271.20871
+  type: 'test'
+  ...
+# Subtest: 07 encrypted object independently exists on both IPFS nodes
+ok 7 - 07 encrypted object independently exists on both IPFS nodes
+  ---
+  duration_ms: 70.414458
+  type: 'test'
+  ...
+# Subtest: 08 unapproved providers and non-owners cannot receive/grant consent
+ok 8 - 08 unapproved providers and non-owners cannot receive/grant consent
+  ---
+  duration_ms: 49.003157
+  type: 'test'
+  ...
+# Subtest: 09 missing permission rejects read and emits denied audit
+ok 9 - 09 missing permission rejects read and emits denied audit
+  ---
+  duration_ms: 614.029576
+  type: 'test'
+  ...
+# Subtest: 10 administrator approves doctor and hospital
+ok 10 - 10 administrator approves doctor and hospital
+  ---
+  duration_ms: 1024.072089
+  type: 'test'
+  ...
+# Subtest: 11 doctor sharing delivers a decryptable key
+ok 11 - 11 doctor sharing delivers a decryptable key
+  ---
+  duration_ms: 2431.365788
+  type: 'test'
+  ...
+# Subtest: 12 hospital sharing decrypts the same clinical bytes
+ok 12 - 12 hospital sharing decrypts the same clinical bytes
+  ---
+  duration_ms: 1521.947379
+  type: 'test'
+  ...
+# Subtest: 13 patient revocation blocks future reads
+ok 13 - 13 patient revocation blocks future reads
+  ---
+  duration_ms: 912.132996
+  type: 'test'
+  ...
+# Subtest: 14 revocation does not erase previously received ciphertext/key
+ok 14 - 14 revocation does not erase previously received ciphertext/key
+  ---
+  duration_ms: 6.582652
+  type: 'test'
+  ...
+# Subtest: 15 hospital permission expires using chain timestamp
+ok 15 - 15 hospital permission expires using chain timestamp
+  ---
+  duration_ms: 1164.063964
+  type: 'test'
+  ...
+# Subtest: 16 provider disable blocks access despite an active grant
+ok 16 - 16 provider disable blocks access despite an active grant
+  ---
+  duration_ms: 1429.276016
+  type: 'test'
+  ...
+# Subtest: 17 wrong private key and modified ciphertext fail authentication
+ok 17 - 17 wrong private key and modified ciphertext fail authentication
+  ---
+  duration_ms: 4.106183
+  type: 'test'
+  ...
+# Subtest: 18 replayed signature is rejected
+ok 18 - 18 replayed signature is rejected
+  ---
+  duration_ms: 568.181411
+  type: 'test'
+  ...
+# Subtest: 19 changed request body invalidates signature
+ok 19 - 19 changed request body invalidates signature
+  ---
+  duration_ms: 6.650752
+  type: 'test'
+  ...
+# Subtest: 20 envelope tampering and forged reads are rejected
+ok 20 - 20 envelope tampering and forged reads are rejected
+  ---
+  duration_ms: 98.026924
+  type: 'test'
+  ...
+# Subtest: 21 non-patient cannot upload and owner cannot revoke self
+ok 21 - 21 non-patient cannot upload and owner cannot revoke self
+  ---
+  duration_ms: 49.774816
+  type: 'test'
+  ...
+# Subtest: 22 audit and medical history are reconstructible from events
+ok 22 - 22 audit and medical history are reconstructible from events
+  ---
+  duration_ms: 44.665952
+  type: 'test'
+  ...

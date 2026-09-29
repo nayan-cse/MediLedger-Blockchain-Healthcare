@@ -1,0 +1,203 @@
+{
+  "date": "2026-09-03T12:47:05.403Z",
+  "note": "Actual local execution, synthetic data, no public deployment",
+  "steps": [
+    {
+      "title": "01 - Deployed smart contract",
+      "output": {
+        "network": "Ganache, chain 31337",
+        "address": "0xe982E462b094850F12AF94d21D470e21bE9D0E9C",
+        "transaction": "0xb01ebfc10f0ea0d58f575aea7cc7bce60f287cdb7b6cced5bc3930373a479e4c",
+        "gasUsed": "1187726"
+      }
+    },
+    {
+      "title": "02 - Register Patient",
+      "output": {
+        "role": 1,
+        "transaction": "0x2665ee7534bec0374eeb9008991c674584d2eb6dac68416d4b7d76775cbbfc0b",
+        "gasUsed": "364053",
+        "active": true
+      }
+    },
+    {
+      "title": "02 - Register Doctor",
+      "output": {
+        "role": 2,
+        "transaction": "0x29b9cfab904f6121fe81d3ee6c0877e5468244b5d9de7247ff8c9696f285ab56",
+        "gasUsed": "364053",
+        "active": false
+      }
+    },
+    {
+      "title": "02 - Register Hospital",
+      "output": {
+        "role": 3,
+        "transaction": "0x1f9bbb6410c425eefa1ca250a3eef8cf34a379927ee369e9c60c351d2432bc5c",
+        "gasUsed": "364053",
+        "active": false
+      }
+    },
+    {
+      "title": "03 - Administrator approves providers",
+      "output": {
+        "doctor": "0xE11BA2b4D45Eaed5996Cd0823791E0C93114882d",
+        "hospital": "0xd03ea8624C8C5987235048901fB614fDcA89b117",
+        "doctorApproved": true,
+        "hospitalApproved": true
+      }
+    },
+    {
+      "title": "04 - Patient uploads an encrypted record",
+      "output": {
+        "recordId": 1,
+        "cid": "bafkreiggwbnbp52fy4fcisz5sko7atqvdul2pcxwbjlqso4bb7fwao6wta",
+        "owner": "0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b",
+        "transaction": "0x3458db9f9c52aae5eda70fed0498d8108c2f3a56cb3b1de058f0136c30b5ea63",
+        "originalBytes": 526,
+        "storageReplicas": 2
+      }
+    },
+    {
+      "title": "05 - Doctor is denied before sharing",
+      "output": {
+        "allowed": false,
+        "message": "Access denied: permission missing, expired, or revoked"
+      }
+    },
+    {
+      "title": "06 - Patient grants doctor access",
+      "output": {
+        "recordId": 1,
+        "recipient": "0xE11BA2b4D45Eaed5996Cd0823791E0C93114882d",
+        "transaction": "0xe02e52f7a414cd7ecd2b63dcd1dc3c879449cc8c73f9a3d0ce50b1fdbaa87272",
+        "allowed": true
+      }
+    },
+    {
+      "title": "07 - Doctor decrypts the original record",
+      "output": {
+        "filename": "synthetic-medical-record.txt",
+        "bytesMatch": true,
+        "plaintext": "MEDILEDGER - SYNTHETIC TEST RECORD\n\nRecord reference: DEMO-001\nPatient reference: Fictional Patient A\nRecord type: Educational consultation note\nDate: 2026-09-03\n\nThis is generated demonstration data. It is not a real patient record,\na diagnosis, a prescription, or medical advice.\n\nDemonstration observations:\n- The patient controls ownership of this encrypted file.\n- A doctor or hospital needs an active patient permission to open it.\n- The application records allowed and denied access requests.\n\nEnd of synthetic record.\n"
+      }
+    },
+    {
+      "title": "08 - Hospital receives a separate wrapped key",
+      "output": {
+        "allowed": true,
+        "bytesMatch": true
+      }
+    },
+    {
+      "title": "09 - Patient revokes doctor access",
+      "output": {
+        "transaction": "0xbf3530a0127ec7acf587149041db50ca5dddd301be368c63cb09f38e42e751e3",
+        "doctorAllowed": false,
+        "hospitalStillAllowed": true
+      }
+    },
+    {
+      "title": "10 - Doctor denied after revocation",
+      "output": {
+        "allowed": false,
+        "message": "Access denied: permission missing, expired, or revoked"
+      }
+    },
+    {
+      "title": "11 - Medical history and audit trail",
+      "output": {
+        "recordCount": 1,
+        "events": [
+          {
+            "event": "Registered",
+            "block": 399,
+            "transaction": "0x2665ee7534bec0374eeb9008991c674584d2eb6dac68416d4b7d76775cbbfc0b"
+          },
+          {
+            "event": "Registered",
+            "block": 401,
+            "transaction": "0x29b9cfab904f6121fe81d3ee6c0877e5468244b5d9de7247ff8c9696f285ab56"
+          },
+          {
+            "event": "Registered",
+            "block": 402,
+            "transaction": "0x1f9bbb6410c425eefa1ca250a3eef8cf34a379927ee369e9c60c351d2432bc5c"
+          },
+          {
+            "event": "ProviderStatus",
+            "block": 404,
+            "transaction": "0xa3e927c0e892b7aa84f92fadba0641b1b0c4036fdcdb9c5704f00e5cc1674065"
+          },
+          {
+            "event": "ProviderStatus",
+            "block": 406,
+            "transaction": "0x86c24ca387adc3bd27bd4a4c5b22d446a7fdb9855949987ec9313d0f0a5ec183"
+          },
+          {
+            "event": "RecordCreated",
+            "block": 409,
+            "transaction": "0x3458db9f9c52aae5eda70fed0498d8108c2f3a56cb3b1de058f0136c30b5ea63"
+          },
+          {
+            "event": "ReadAudit",
+            "block": 412,
+            "transaction": "0x196e4102c129bd510acbde82c68417ca5220a933fc0dbc13d01d2965b58f2754",
+            "actor": "0xE11BA2b4D45Eaed5996Cd0823791E0C93114882d",
+            "allowed": false
+          },
+          {
+            "event": "ReadAudit",
+            "block": 414,
+            "transaction": "0xda81bca3879b5241c2b5bcc6156f6e9de614ce54dabdc72696d6e9dc30343210",
+            "actor": "0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b",
+            "allowed": true
+          },
+          {
+            "event": "PermissionGranted",
+            "block": 416,
+            "transaction": "0xe02e52f7a414cd7ecd2b63dcd1dc3c879449cc8c73f9a3d0ce50b1fdbaa87272"
+          },
+          {
+            "event": "ReadAudit",
+            "block": 418,
+            "transaction": "0x20e05b5dc900a8beb816e5e901ac4feb45cf7a7bbc680b1af78366d18b66149c",
+            "actor": "0xE11BA2b4D45Eaed5996Cd0823791E0C93114882d",
+            "allowed": true
+          },
+          {
+            "event": "ReadAudit",
+            "block": 420,
+            "transaction": "0xda8469d2907ad76e25147a2c91d6899fd09d0737571d1b2f0b22f2bc8e30b63e",
+            "actor": "0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b",
+            "allowed": true
+          },
+          {
+            "event": "PermissionGranted",
+            "block": 422,
+            "transaction": "0xb4b4c1b71cada452ffef5705a3711676fd3c45ea862444cb20b3286372aef2fb"
+          },
+          {
+            "event": "ReadAudit",
+            "block": 424,
+            "transaction": "0x46ee7c567fc4db59ad93d8de1ab7a3e677040007eb556edd35483088f02eb107",
+            "actor": "0xd03ea8624C8C5987235048901fB614fDcA89b117",
+            "allowed": true
+          },
+          {
+            "event": "PermissionRevoked",
+            "block": 426,
+            "transaction": "0xbf3530a0127ec7acf587149041db50ca5dddd301be368c63cb09f38e42e751e3"
+          },
+          {
+            "event": "ReadAudit",
+            "block": 428,
+            "transaction": "0xda91dbfe8418745f912edc0202f34d846073b6f5c3e18f3e0477bcdeb2cb61fb",
+            "actor": "0xE11BA2b4D45Eaed5996Cd0823791E0C93114882d",
+            "allowed": false
+          }
+        ]
+      }
+    }
+  ]
+}

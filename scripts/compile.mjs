@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import solc from 'solc';
+const source = fs.readFileSync('contracts/HealthcareRecords.sol', 'utf8');
+const input = { language: 'Solidity', sources: { 'HealthcareRecords.sol': { content: source } }, settings: { optimizer: { enabled: true, runs: 200 }, evmVersion: 'shanghai', outputSelection: { '*': { '*': ['abi', 'evm.bytecode.object', 'evm.deployedBytecode.object'] } } } };
+const result = JSON.parse(solc.compile(JSON.stringify(input)));
+const errors = (result.errors || []).filter(e => e.severity === 'error');
+if (errors.length) throw new Error(errors.map(e => e.formattedMessage).join('\n'));
+fs.mkdirSync('artifacts', { recursive: true });
+fs.writeFileSync('artifacts/HealthcareRecords.json', JSON.stringify({...result.contracts['HealthcareRecords.sol'].HealthcareRecords, compiler: solc.version(), settings: input.settings }, null, 2));
+console.log('Compiled HealthcareRecords with', solc.version());
