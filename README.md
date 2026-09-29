@@ -88,7 +88,3 @@ The optional script writes `evidence/external-deployment.json`. It does not reco
 ## Audit scope and interpretation
 
 `ReadAudit` attests a **gateway access decision**, not proof that a human viewed a file or that delivery finished. Storage failure can follow an allowed decision; the gateway log captures the failed response. IPFS stores ciphertext publicly within this isolated local setup. Blockchain `private` visibility would not protect secrets, which is why secret data is kept off-chain.
-
-## Student preparation
-
-Read `submission/VIVA_GUIDE.md` and the timed narration script. Be ready to trace a patient upload, a grant, a denied read and a revocation through the contract, shared client code, gateway and IPFS stores. The assignment explicitly permits agentic coding assistance but requires you to understand and explain every component. Replace the blank student/course fields on the report cover before printing.
